@@ -26,7 +26,7 @@ class Search extends React.Component {
     const ApiCall = {
       type: "NEW_CALL",
       payload: axios.get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=1439d91e47a48294390f03779b2462e9&units=imperial`
+        `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=1439d91e47a48294390f03779b2462e9&units=imperial`
       )
     };
 
@@ -39,7 +39,7 @@ class Search extends React.Component {
     const ApiCall = {
       type: "NEW_CALL",
       payload: axios.get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${myInput}&APPID=1439d91e47a48294390f03779b2462e9&units=imperial`
+        `https://api.openweathermap.org/data/2.5/weather?q=${myInput}&APPID=1439d91e47a48294390f03779b2462e9&units=imperial`
       )
     };
 

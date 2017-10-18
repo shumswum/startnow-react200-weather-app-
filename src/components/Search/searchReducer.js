@@ -31,7 +31,7 @@ export default function currentSearch(state = defaultState, action) {
                 long: payload.data.coord.lon,
                 windSpeed: `${payload.data.wind.speed} mph`,
                 cityName: payload.data.name,
-                weatherIcon: `http://openweathermap.org/img/w/${payload.data.weather[0].icon}.png`,
+                weatherIcon: `https://openweathermap.org/img/w/${payload.data.weather[0].icon}.png`,
                 prevSearch: [...state.prevSearch, 
                     {
                         name: payload.data.name,
