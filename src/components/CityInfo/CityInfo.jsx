@@ -29,7 +29,7 @@ class CityInfo extends React.Component {
               </div>
               <div className="top-flex">
                 <h5>Humidity</h5>
-                <strong className="green-text">{humidity}</strong>
+                <strong className="green-text">{humidity}%</strong>
               </div>
             </div>
             <div className="bottom-three">
